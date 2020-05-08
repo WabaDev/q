@@ -698,13 +698,19 @@ h4,.h4 {
   transition: all 0.3s ease 0s;
 }
 
-
+.game-card:hover {
+  transition: 0.2s;
+  transform:translateY(0px);
+  box-shadow: 0 0 15px #7676ff;
+  cursor: default !important;
+}
+/*
 .game-card:hover {
   transition: 0.1s;
   transform:translateY(-5px);
 
 }
-
+*/
 
 .cta-area {
   background: url(../img/home/cta-bg.png) left center no-repeat;
